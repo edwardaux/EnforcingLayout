@@ -651,7 +651,7 @@
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="335" y="390" width="208" height="232"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
-            <view key="contentView" id="372">
+            <view key="contentView" id="372" customClass="BDDebugView">
                 <rect key="frame" x="0.0" y="0.0" width="208" height="232"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
@@ -707,6 +707,11 @@
                     <constraint firstItem="gaJ-ON-78H" firstAttribute="top" secondItem="372" secondAttribute="top" constant="20" id="tUc-u7-53K"/>
                     <constraint firstItem="yWI-Gn-ZVR" firstAttribute="top" secondItem="niG-dO-ZA4" secondAttribute="bottom" constant="20" id="zNx-uq-Kuk"/>
                 </constraints>
+                <connections>
+                    <outlet property="b1" destination="gaJ-ON-78H" id="Tt4-x9-NIB"/>
+                    <outlet property="b2" destination="niG-dO-ZA4" id="Fuz-1M-7Nw"/>
+                    <outlet property="b3" destination="hDr-qz-qkq" id="hbw-se-1TN"/>
+                </connections>
             </view>
         </window>
         <customObject id="494" customClass="BDAppDelegate">

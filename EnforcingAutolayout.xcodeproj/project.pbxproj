@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BF0CE33D18CD8E06003E85AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF4D290D18CD8CBB00254B10 /* InfoPlist.strings */; };
 		BF19C92118E6475C001C80A3 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = BF19C92018E6475C001C80A3 /* readme.md */; };
+		BF3C572518EA1953009DBC0C /* BDDebugView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3C572418EA1953009DBC0C /* BDDebugView.m */; };
 		BF4D28E718CD8CBB00254B10 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4D28E618CD8CBB00254B10 /* Cocoa.framework */; };
 		BF4D28F118CD8CBB00254B10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF4D28EF18CD8CBB00254B10 /* InfoPlist.strings */; };
 		BF4D28F318CD8CBB00254B10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4D28F218CD8CBB00254B10 /* main.m */; };
@@ -35,6 +36,11 @@
 
 /* Begin PBXFileReference section */
 		BF19C92018E6475C001C80A3 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.md; sourceTree = "<group>"; };
+		BF3C572318EA1953009DBC0C /* BDDebugView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDDebugView.h; sourceTree = "<group>"; };
+		BF3C572418EA1953009DBC0C /* BDDebugView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDDebugView.m; sourceTree = "<group>"; };
+		BF3C572618EA1B9A009DBC0C /* ib1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ib1.png; sourceTree = "<group>"; };
+		BF3C572718EA1BFA009DBC0C /* resize.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = resize.gif; sourceTree = "<group>"; };
+		BF3C572818EA1C87009DBC0C /* ib2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ib2.png; sourceTree = "<group>"; };
 		BF4D28E318CD8CBB00254B10 /* EnforcingAutolayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnforcingAutolayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4D28E618CD8CBB00254B10 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		BF4D28E918CD8CBB00254B10 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -81,6 +87,9 @@
 			isa = PBXGroup;
 			children = (
 				BF19C92018E6475C001C80A3 /* readme.md */,
+				BF3C572618EA1B9A009DBC0C /* ib1.png */,
+				BF3C572818EA1C87009DBC0C /* ib2.png */,
+				BF3C572718EA1BFA009DBC0C /* resize.gif */,
 				BF4D28EC18CD8CBB00254B10 /* EnforcingAutolayout */,
 				BF4D290A18CD8CBB00254B10 /* EnforcingAutolayoutTests */,
 				BF4D28E518CD8CBB00254B10 /* Frameworks */,
@@ -122,6 +131,8 @@
 			children = (
 				BF4D28F818CD8CBB00254B10 /* BDAppDelegate.h */,
 				BF4D28F918CD8CBB00254B10 /* BDAppDelegate.m */,
+				BF3C572318EA1953009DBC0C /* BDDebugView.h */,
+				BF3C572418EA1953009DBC0C /* BDDebugView.m */,
 				BF4D28FB18CD8CBB00254B10 /* MainMenu.xib */,
 				BF4D28FE18CD8CBB00254B10 /* Images.xcassets */,
 				BF4D28ED18CD8CBB00254B10 /* Supporting Files */,
@@ -261,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF3C572518EA1953009DBC0C /* BDDebugView.m in Sources */,
 				BF4D28FA18CD8CBB00254B10 /* BDAppDelegate.m in Sources */,
 				BF4D28F318CD8CBB00254B10 /* main.m in Sources */,
 			);
